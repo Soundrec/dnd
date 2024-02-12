@@ -1,0 +1,8 @@
+
+body { 
+    background: url("../img/bg.jpg") 50% 0 no-repeat fixed;  
+}
+
+.alert-light {  
+    border-color: #bfbfbf;  
+}
