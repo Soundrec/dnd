@@ -2,7 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+from dnd.nn_text import TextModel
 
+modelText = TextModel()
 
 def main():
     """Run administrative tasks."""
@@ -20,3 +22,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
